@@ -1,0 +1,23 @@
+{
+  "name": "DuinoEvent",
+  "version": "0.1.0",
+  "description": "Event handler for Arduino",
+  "keywords": ["event", "embedded", "arduino"],
+  "authors": [
+    {
+      "name": "Pierre Debas"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {
+        "name": "DuinoMemory",
+        "version": "https://github.com/Pierrolefou881/DuinoMemory.git"
+    },
+    {
+        "name": "DuinoCollections",
+        "version": "https://github.com/Pierrolefou881/DuinoCollections.git"
+    }
+  ]
+}
